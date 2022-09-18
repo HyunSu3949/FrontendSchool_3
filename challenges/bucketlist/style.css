@@ -1,0 +1,57 @@
+body,
+h1,
+header,
+main,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: "arial";
+}
+body {
+  background-color: #dddddd;
+}
+
+.bucket-list {
+  background-color: white;
+  border-radius: 28px;
+  width: 400px;
+  margin: 100px auto;
+  box-shadow: 5px 3px 10px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.title {
+  line-height: 1;
+  color: #ff1493;
+  border-left: 8px solid #ff1493;
+  padding-left: 24px;
+  margin: 40px 0;
+}
+
+.list {
+  box-sizing: border-box;
+  border-top: 4px solid #dddddd;
+  padding: 24px;
+  background-color: #efefef;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 3px solid #acacac;
+  border-radius: 5px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+
+.color-txt {
+  border-color: #1e91ff;
+  color: #1e91ff;
+}

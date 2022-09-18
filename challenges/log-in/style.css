@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.log-in {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.wrapper {
+  margin: 0 16px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 19px;
+  margin-bottom: 16px;
+}
+
+.button {
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #711bff;
+  margin-bottom: 17px;
+}
+
+.button span {
+  position: relative;
+  top: -3px;
+}
+
+.logo {
+  line-height: 40px;
+  width: 62px;
+  height: 18px;
+}
+
+.links img {
+  vertical-align: bottom;
+  width: 16px;
+  height: 16px;
+}
+
+.links {
+  color: #767676;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.divider {
+  position: relative;
+  top: -1px;
+}
+a {
+  line-height: 15.02px;
+  text-decoration-line: none;
+  color: inherit;
+}
+.sign-up {
+  float: right;
+  margin-left: 3px;
+}
+
+.man-icon {
+  float: right;
+}
